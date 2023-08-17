@@ -51,7 +51,7 @@ export class ZoomPanPinch {
 
   public transformState: ReactZoomPanPinchState;
   public setup: LibrarySetup;
-  public observer?: ResizeObserver;
+  public observer?: any;
   public onChangeCallbacks: Set<(ctx: ReactZoomPanPinchRef) => void> =
     new Set();
   public onInitCallbacks: Set<(ctx: ReactZoomPanPinchRef) => void> = new Set();
